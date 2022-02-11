@@ -1,7 +1,12 @@
 class CustomProjectTemplate {
-  async runBefore(params) {}
+  async runBefore(params) {
+    return {
+      projectPlugins: []
+    }
+  }
 
   async runAfter(params) {
+    params.folder.files = []
     params.folder.files.push({
       name: 'testing',
       fileType: 'json',
