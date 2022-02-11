@@ -1,0 +1,19 @@
+{
+  "name": "teleport-cli-plugin",
+  "version": "0.0.1",
+  "description": "A sample plugin for using inside teleport-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayaKrishnaNamburu/teleport-cli-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayaKrishnaNamburu/teleport-cli-plugin/issues"
+  },
+  "homepage": "https://github.com/JayaKrishnaNamburu/teleport-cli-plugin#readme"
+}
